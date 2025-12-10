@@ -17,9 +17,7 @@
 
 | 번호      | 제목                                                                                  | 상태            | 요약                   |
 | ------- | ----------------------------------------------------------------------------------- | ------------- | -------------------- |
-| ADR-001 | [Deprecate cron in favor of scheduler](./adr-001-deprecate-cron.md)                 | 🔁 Superseded | cron 대신 Airflow로 전환  |
-| ADR-002 | [Use Airflow for DAG orchestration](./adr-002-use-airflow-for-dag-orchestration.md) | ✅ Accepted    | 워크플로우 도구로 Airflow 채택 |
-| ADR-003 | [Adopt batch processing for ETL](./adr-003-adopt-batch-processing.md)               | 🟡 Proposed   | 배치 기반 파이프라인 선택       |
+| ADR-001 | [self-hosted runner를 이용한 ec2 자동 배포](./docs/adr-001-cicd-actions-runner.md)               | 🟡 Proposed   | 배치 기반 파이프라인 선택       |
 
 > 새로운 ADR을 작성하면 이 표에도 추가해주세요. (상태 이모지는 변경 가능)
 
@@ -30,9 +28,7 @@
 ```
 /adr
   ├── docs
-    ├── adr-001-deprecate-cron.md
-    ├── adr-002-use-airflow-for-dag-orchestration.md
-    ├── adr-003-adopt-batch-processing.md
+    ├── adr-001-cicd-actions-runner.md
   ├── template
     ├── ADR-000-template.md
 ```
@@ -40,7 +36,7 @@
 #### 🧱 파일 작명 규칙
 
 * `adr-XXX-short-title.md` 형식 (번호는 순차적으로 증가)
-* 제목은 \[Verb + 대상 + 맥락] 형식으로 짧게
+* 제목은 짧지만 주제가 바로 드러나도록 작성
 
 예시:
 
