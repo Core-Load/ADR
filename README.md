@@ -18,7 +18,7 @@
 | 번호      | 제목                                                                                  | 상태            | 요약                   |
 | ------- | ----------------------------------------------------------------------------------- | ------------- | -------------------- |
 | ADR-001 | [self-hosted runner를 이용한 ec2 자동 배포](./docs/adr-001-cicd-actions-runner.md)               | 🟡 Proposed   | ec2 자동 배포       |
-| ADR-002 | [Airflow와 dbt 하나의 컨테이너 사용](./docs/ADR-002-Run%20Airflow%20&%20dbt%20within%20a%20single%20container.md) | 🟡 Proposed  | 하나의 컨테이너 사용 |
+| ADR-002 | [Airflow와 dbt 하나의 컨테이너 사용](https://github.com/Core-Load/ADR/blob/aa7af51104d9397d497ff0f4c8c11b0d4a591872/docs/ADR-002-Run%20Airflow%20%26%20dbt%20within%20a%20single%20container) | 🟡 Proposed  | 하나의 컨테이너 사용 |
 
 > 새로운 ADR을 작성하면 이 표에도 추가해주세요. (상태 이모지는 변경 가능)
 
