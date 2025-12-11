@@ -24,7 +24,7 @@ ADR 제목은 해당 문서가 어떤 기술적 결정을 다뤘는지를 간결
 - Reject real-time ingestion due to infra constraints
 - Deprecate cron-based jobs in favor of managed scheduler
 -->
-# ADR-002-Run Airflow & dbt within a single container: [결정 제목을 간결하고 명확하게]
+# ADR-002: Run Airflow & dbt within a single container
 
 ## Status
 <!-- 현재 이 결정의 상태는? -->
