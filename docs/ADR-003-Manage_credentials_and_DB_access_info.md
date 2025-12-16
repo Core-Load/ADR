@@ -62,9 +62,9 @@ Airflow Web UI에서 Variables, Connections 등록하여 사용
 - 표나 목록 형태로 정리해도 좋다.
 -->
 Airflow Secrets Backend 사용
-    - 사용할 Backend 결정 및 설정 (AWS, HashiCorp 등)
-    - 필요한 Python 라이브러리 설치
-    - Airflow 환경 설정 파일(airflow.cfg) 수정
+- 사용할 Backend 결정 및 설정 (AWS, HashiCorp 등)
+- 필요한 Python 라이브러리 설치
+- Airflow 환경 설정 파일(airflow.cfg) 수정
 
 ## 4. Rationale (결정의 이유)
 <!--
