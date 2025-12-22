@@ -18,8 +18,9 @@
 | 번호      | 제목                                                                                  | 상태            | 요약                   |
 | ------- | ----------------------------------------------------------------------------------- | ------------- | -------------------- |
 | ADR-001 | [self-hosted runner를 이용한 ec2 자동 배포](./docs/ADR-001-cicd-actions-runner.md)               | ✅ Accepted   | ec2 자동 배포       |
-| ADR-002 | [Airflow와 dbt 하나의 컨테이너 사용](https://github.com/Core-Load/ADR/blob/aa7af51104d9397d497ff0f4c8c11b0d4a591872/docs/ADR-002-Run%20Airflow%20%26%20dbt%20within%20a%20single%20container) | ❌ Rejected  | 하나의 컨테이너 사용 |
-| ADR-001 | [aws key, 접속 정보 등 관리](./docs/ADR-003-Manage_credentials_and_DB_access_info.md)               | ✅ Accepted   | 키, 접속 정보 관리       |
+| ADR-002 | [Airflow와 dbt 하나의 컨테이너 사용](./docs/ADR-002-Run%20Airflow%20&%20dbt%20within%20a%20single%20container.md) | ❌ Rejected  | 하나의 컨테이너 사용 |
+| ADR-003 | [aws key, 접속 정보 등 관리](./docs/ADR-003-Manage_credentials_and_DB_access_info.md)               | ✅ Accepted   | 키, 접속 정보 관리       |
+| ADR-004 | [Intermediate 스키마 분리](./docs/ADR-004-Separate_Intermediate_schema)               | ✅ Accepted   | Intermediate 스키마 분리       |
 > 새로운 ADR을 작성하면 이 표에도 추가해주세요. (상태 이모지는 변경 가능)
 
 ### 🛠️ 작성 및 사용법
@@ -29,7 +30,10 @@
 ```
 /adr
   ├── docs
-    ├── adr-001-cicd-actions-runner.md
+    ├── ADR-001-cicd-actions-runner.md
+    ├── ADR-002-Run Airflow & dbt within a single dontainer.md
+    ├── ADR-003-Manage_credentials_and_DB_access_info.md
+    ├── ADR-004-Separate_Intermediate_schema.md
   ├── template
     ├── ADR-000-template.md
 ```

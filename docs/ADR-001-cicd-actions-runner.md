@@ -29,7 +29,7 @@ ADR 제목은 해당 문서가 어떤 기술적 결정을 다뤘는지를 간결
 ## Status
 <!-- 현재 이 결정의 상태는? -->
 <!-- 예: Proposed, Accepted, Rejected, Superseded -->
-Status: Proposed
+Status: Accepted
 
 ## Date
 2025-12-10
