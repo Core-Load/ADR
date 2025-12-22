@@ -20,7 +20,7 @@
 | ADR-001 | [self-hosted runner를 이용한 ec2 자동 배포](./docs/ADR-001-cicd-actions-runner.md)               | ✅ Accepted   | ec2 자동 배포       |
 | ADR-002 | [Airflow와 dbt 하나의 컨테이너 사용](./docs/ADR-002-Run%20Airflow%20&%20dbt%20within%20a%20single%20container.md) | ❌ Rejected  | 하나의 컨테이너 사용 |
 | ADR-003 | [aws key, 접속 정보 등 관리](./docs/ADR-003-Manage_credentials_and_DB_access_info.md)               | ✅ Accepted   | 키, 접속 정보 관리       |
-| ADR-004 | [Intermediate 스키마 분리](./docs/ADR-004-Separate_Intermediate_schema)               | ✅ Accepted   | Intermediate 스키마 분리       |
+| ADR-004 | [Intermediate 스키마 분리](./docs/ADR-004-Separate_Intermediate_schema.md)               | ✅ Accepted   | Intermediate 스키마 분리       |
 > 새로운 ADR을 작성하면 이 표에도 추가해주세요. (상태 이모지는 변경 가능)
 
 ### 🛠️ 작성 및 사용법
